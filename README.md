@@ -1,4 +1,4 @@
-**Example**
+**Quick start - Example**
 
  - Clone this repository
  - Go to root directory of this repository
