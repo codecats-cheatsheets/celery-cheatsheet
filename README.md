@@ -1,7 +1,11 @@
 **Example**
 
+ - Clone this repository
  - Go to root directory of this repository
- - Install rabbitmq (server)
+ - Install rabbitmq (server - when you get errors go to rabbitmq doc)
+```bash
+sudo apt-get install rabbitmq-server
+```
  - Create virtual enviroment
 ```bash
 virtualenv venv
