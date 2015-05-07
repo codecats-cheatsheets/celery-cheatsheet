@@ -26,10 +26,20 @@ pip install -r requirements.txt
 ```bash
 source ../venv/bin/activate
 ```
+> - Or run with pypy:
+> ```bash 
+virtualenv -p pypy venv-pypy
+````
+> ```bash 
+. venv-pypy/bin/activate
+````
+
  - Run task backend
 ```bash
 celery -A tasks worker --loglevel=info
 ```
+
+
  - Back to first terminal window and run python interpreter
 ```bash
 python
